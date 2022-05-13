@@ -1,2 +1,2 @@
-## Bug report :mag:
-Examples of Bug Reports for e-commerce sites
+## Examples of Bug Reports, Checlists, Audits :mag:
+Examples of Bug Reports, Checlists, Audits for e-commerce sites
