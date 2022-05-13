@@ -1,4 +1,4 @@
-Nr,Component,Issue Type,Issue Title,URL,Steps To Reproduce,Expected Result,Actual Result,Screenshot,Video
+qNr,Component,Issue Type,Issue Title,URL,Steps To Reproduce,Expected Result,Actual Result,Screenshot,Video
 1,MINICART,Functional,"View Cart button leads to the ""Oops! Something went wrong!"" page instead of Cart page",https://qatest-dev.indvp.com/fluted-zinc-planters-set-of-two,"1. Open PDP
 2. Add product to the cart
 3. Click on Cart icon
