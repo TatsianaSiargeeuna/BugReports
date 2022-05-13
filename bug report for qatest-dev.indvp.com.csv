@@ -1,0 +1,63 @@
+Nr,Component,Issue Type,Issue Title,URL,Steps To Reproduce,Expected Result,Actual Result,Screenshot,Video
+1,MINICART,Functional,"View Cart button leads to the ""Oops! Something went wrong!"" page instead of Cart page",https://qatest-dev.indvp.com/fluted-zinc-planters-set-of-two,"1. Open PDP
+2. Add product to the cart
+3. Click on Cart icon
+4. Click on View Cart button",Cart page is open,"Empty page with  ""Oops! Something went wrong!"" message is open",,https://watch.screencastify.com/v/8goYEbUDLCmK8lufe1de
+2,HOME ,Functional,There is no icon for My Account through the whole site,https://qatest-dev.indvp.com/,"1. Open home page
+2. Sign in
+3. Go to any category
+4. Go to My Account page",There is My Account icon that let customers reach easily their accounts,"There is no My Account icon
+
+But now you can return to My Account from any site's page by clicking Sign in",,https://watch.screencastify.com/v/1jxbC0HwdIoLbESdXlr2
+3,HOME,Visual,Logo is hidden behind navigation bar,https://qatest-dev.indvp.com/,"1. Open Home page
+
+",Logo is fully visible at the top of the home page,Logo is hidden behind navigation bar,https://prnt.sc/qmFpIjNa_uZS,
+4,HOME,Perfomance,"The load time of home page is 3,77 seconds",https://qatest-dev.indvp.com/,"1. Open Home page and check it load time via DevTools
+
+",Load time is about 2-3 seconds,"Load time is about 3,77 seconds",https://prnt.sc/NRGJNGBGcjV5,
+5,HOME ,Functional,There is no scrollbar through the whole site,https://qatest-dev.indvp.com/,"1. Open the site
+2. Scroll the pages of the site down and up with the help of scrollbar
+
+Note: now it's possible to do with keyboard only",Scroll bar is visible and it's possible to scroll it down and up with it,"There is no scrollbar on the site's pages
+",,https://watch.screencastify.com/v/yIFisPBeW8ZIHMY1JXYW
+6,PDP,Functional,There is no option to add product to the wishlist from PDP or PLP but there is My Wishlist page in My Account,https://qatest-dev.indvp.com/,"1. Open homepage
+2. Sign in 
+3. Go to PDP",There is option/button/icon to add product to wishlist,There is no opportunity to add product to the wishlist,"https://prnt.sc/NJuoxb_JGaMh
+https://prnt.sc/9FWLXNCj2xu8 ",
+7,SEARCH,Functional,There is no possibility to see all search results on search results page,https://qatest-dev.indvp.com/,"1. Open home page
+2. Enter search request in the search field",There is option to see all search results on search results page,There is no possibility to see all search results on search results page,https://prnt.sc/6KmDaGrSOsu_,
+8,HOME,Perfomance,The size of Garden block image is 330 kB,https://qatest-dev.indvp.com/,"1. Open home page
+2. Check the size of Garden block image with Chrome DevTools",The size of Garden block image is no more than 35 kB,The size of Garden block image is more than 35 kB,https://prnt.sc/CHQfzH0Bz0AT,
+9,PLP,Functional,There is no filters on PLP for products,https://qatest-dev.indvp.com/portmeirion,1. Open PLP,"There is filter for products (for example, by type, color, price, country of manufacture)",There is no filter for products,https://prnt.sc/gQkMbJNwfThh,
+10,PLP,Functional,Products' pictures are missing,https://qatest-dev.indvp.com/portmeirion,"1. Open product list page
+",All pictures are placed on site's pages,A lot of product's pictures are missing through the site's pages,https://prnt.sc/W546e2hIBm8H,
+11,HOME ,Functional,All icons of social media lead to its sign up pages but not to the site's pages on it,https://qatest-dev.indvp.com/,"1. Open home page and scroll down to the footer
+2. Click Facebook, Twitter, Pinterest and Instagram icons",All icons of social media lead to the site's page on it,All icons of social media lead to its sign up pages,,https://watch.screencastify.com/v/Q5wNWgVExxUDqfwkWFVM
+12,PLP,Functional,Categories' dropdowns doesn't hide back after picking category from PLP,https://qatest-dev.indvp.com/kitchen-dining,"1. Open PLP
+2. Click any category that has dropdown
+4. Move coursor away from categorie's name or dropdown",Dropdown hides ,Dropdown doesn't hide and stay expanded,,https://watch.screencastify.com/v/Kh6hcWTAx98BoayGPv8z
+13,PLP,Functional,"The number of products at the paginator is displayed wrong - 14 or 13 instead of 12 on the first pages of New In, Portmeirion and Bad&Bath categories' pages",https://qatest-dev.indvp.com/new-in,"1. Open PLP pages
+2. Scroll down to the paginator
+
+",Number of products is displayed correctly (same as number of products on the PLP),Number of products is not the same as number of products on these PLP,"https://prnt.sc/Fb5acz4lEZtX 
+https://prnt.sc/gvZACRVkA659 
+https://prnt.sc/pqSLhH5u__iV  ",
+14,FOOTER,Visual,Columns are not aligned to each other,https://qatest-dev.indvp.com/,"1. Open the site's home page
+2. Scroll down to the footer",Columns aligned to each other on the same level,Columns About Us and Comtact are placed lower then Customer Care column,https://prnt.sc/zZy4YcYai_qp,
+15,TERMS & CONDITIONS PAGE,Content,Text are in Latin language,https://qatest-dev.indvp.com/terms,"1. Open Terms & Conditions page
+
+",Text of Terms & Conditions is written in English,Text of Terms & Conditions is written in Latin,https://prnt.sc/knwolv5GQcMx,
+16,ABOUT US PAGE,Content,There is no content on About Us page,https://qatest-dev.indvp.com/about,"1. Open About Us page
+
+",Text about company is displayed on page,There is no text about company on page,https://prnt.sc/8S8EzvbtvziP,
+17,PDP,Cross-browser,The PDP pages through the whole site lead to 404 page on Microsoft Edge v44.18362.449.0,https://qatest-dev.indvp.com/portmeirion,"1. Open any product category with Microsoft Edge v44.18362.449.0
+2. Click on any product to go to PDP",PDP is open,404 page is open,https://watch.screencastify.com/v/Y34lUa5gajVEBwGAYfKR,
+18,HOME,Cross-browser,Sign Up and Receive block has wrong size and alignment on Microsoft Edge v44.18362.449.0,https://qatest-dev.indvp.com/,"1. Open Home page with Microsoft Edge v44.18362.449.0 and scroll down
+
+",Sign Up and Receive block has correct size and proper alignment,Sign Up and Receive block has wrong size and alignment,https://prnt.sc/dXa2KHlPikV7,
+19,PDP,Cross-device,There is no opportunity to go to the Home page from any page on Android 11 on Samsung Internet browser v 16.2.1.56,https://qatest-dev.indvp.com/portmeirion,"1. Open any PDP or PLP with Samsung Internet v 16.2.1.56
+2. Go to the Home page",There is possibility to go back to the Home page from any page of the site,There is possibility to go back to the Home page from any page of the site,https://prnt.sc/JGBeUTLxsaIk,
+20,PDP,Cross-device,"The pop up ""Sorry the product is out of stock!"" overlaps with product description on Android 11 on Samsung Internet browser v 16.2.1.56 ",https://qatest-dev.indvp.com/mistletoe-porcelain-creamer,"1. Open any PDP of product which is out of stock with Samsung Internet v 16.2.1.56 
+2. Click Add to the Cart button
+
+","The pop up ""Sorry the product is out of stock!"" do not overlaps with product description and clearly visible for user","The pop up ""Sorry the product is out of stock!"" overlaps with product description",https://prnt.sc/WJxtPxLU118_,
