@@ -1,3 +1,6 @@
+link to this bug report in [*Google Sheets*](https://docs.google.com/spreadsheets/d/1sWk8B32RG5diNzpzu6VCQgtBgYGEs3i6ahz0MQvxp9w/edit#gid=0)<br>
+site: [*qatest-dev.indvp.com*](https://qatest-dev.indvp.com/)
+
 Nr,Component,Issue Type,Issue Title,URL,Steps To Reproduce,Expected Result,Actual Result,Screenshot,Video
 1,MINICART,Functional,"View Cart button leads to the ""Oops! Something went wrong!"" page instead of Cart page",https://qatest-dev.indvp.com/fluted-zinc-planters-set-of-two,"1. Open PDP
 2. Add product to the cart
