@@ -1,2 +1,2 @@
-## bug report for qatest-dev.indvp.com. :mag:
+## Bug report :mag:
 Examples of Bug Reports for e-commerce sites
