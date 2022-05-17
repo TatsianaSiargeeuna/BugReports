@@ -1,0 +1,94 @@
+site,https://laneway.melbourneairport.com.au/,,,,,,,,
+№,,Module,Check,HP/Ubuntu/Chrome 98/1920x1080,LambdaTest Emulator/                          HP/ Windows 10/Firefox 97/1366x768,LambdaTest Emulator/                          MacBook Air/MacOS Monterey/Safari 15/          2560x1600,LambdaTest Emulator/ Samsung Galaxy S10/ Android 9/ Chrome/ 360x740,LambdaTest Emulator/ iPhone 13/ iOS 15.2/ Safari/ 390x844,LambdaTest Emulator/ iPad Air (4th generation)/ iPadOS 15.0/ Safari/ 768x1024
+,,,General,,,,,,
+1,,General,Check the URL for correctness laneway.melbourneairport.com.au,passed,passed,passed,passed,passed,passed
+2,,,Check site's favicon,passed,passed,passed,passed,passed,passed
+3,,,Check home page for spelling,passed,passed,passed,passed,passed,passed
+4,,,Check home page for spacing,passed,passed,passed,passed,passed,passed
+5,,,Check home page for alignment,passed,passed,passed,passed,passed,passed
+6,,,Check home page for consistency of text and pictures,passed,passed,passed,passed,passed,passed
+7,,,Сheck there is button Up after scrolling page down,passed,passed,passed,passed,passed,passed
+8,,,Cookies message pops up for the first opening of page,passed,passed,passed,passed,passed,passed
+9,,,Logo LANEWAY should lead to home page,passed,passed,passed,passed,passed,passed
+10,,,Check website pages' loading time,passed,passed,passed,passed,passed,passed
+11,,,Check website pages' response time,passed,passed,passed,passed,passed,passed
+,,,Homepage,,,,,,
+12,,Homepage,Click MELBOURNE AIRPORT logo to go to Melburne Airport site's homepage,passed,passed,passed,failed,failed,passed
+13,,,Click Passengers to go to Passengers' page of Melbourne Airporte site,passed,passed,passed,passed,passed,passed
+14,,,Click Corporate to go to Corporate's page of Melbourne Airporte site,passed,passed,passed,passed,passed,passed
+15,,,Click on Help to go to Useful Information page of Melbourne Airporte site,passed,passed,passed,passed,passed,passed
+,,,Top navigation bar,,,,,,
+16,,Top navigation bar,Hover over Shop to see dropdown list with shopping categories,passed,passed,passed,passed,passed,passed
+17,,,Click Shop to open Shop page,passed,passed,passed,passed,passed,passed
+18,,,Click Stores to open Store Directory page,passed,passed,passed,passed,passed,passed
+19,,,Click About to open About Us page,passed,passed,passed,passed,passed,passed
+20,,,Check that navbar tabs not overlay each other,passed,passed,passed,passed,passed,passed
+21,,,Click magnifying glass to expand search field,passed,passed,passed,passed,passed,passed
+22,,,Click two arrows icon to open Compare Products page,passed,passed,passed,passed,passed,passed
+23,,,"Click My account icon to see drop down list
+",passed,passed,passed,passed,passed,passed
+24,,,Click Login from drop downlist to go to sign in form,passed,passed,passed,passed,passed,passed
+25,,,Click Sign Up from drop downlist to go to Create new customer account page,passed,passed,passed,passed,passed,passed
+26,,,"Click shopping cart (when it's empty) icon to see message ""You have no items in your shopping cart.""",passed,passed,passed,passed,passed,passed
+27,,,"The empty Cart message ""You have no items in your shopping cart."" move whole page to the left",passed,passed,passed,passed,passed,failed
+28,,,Click shopping cart (when there is at least 1 product in it) icon to see product(-s) in it,passed,passed,passed,passed,passed,passed
+,28.1,,Press X in dropdown Cart window to delete product(-s) and see confirmation message,passed,passed,passed,failed,failed,passed
+,28.2,,Change product quantity in dropdown Cart window and press Update button,passed,passed,passed,passed,passed,passed
+,28.3,,Check space between Update button and counter after changing quantity of products in dropdown Cart window,passed,passed,passed,failed,failed,passed
+,28.4,,"Check warning message modal ""We don't have as many ..."" after adding in Cart more items than there is in stock ",passed,passed,passed,failed,failed,passed
+,28.5,,Press Pencil icon in dropdown Cart window to edit item,passed,passed,passed,passed,passed,passed
+,28.6,,Press Go to cart button in dropdown Cart window to go to Cart page,passed,passed,passed,passed,passed,passed
+,28.7,,Check Go to cart button for spelling,passed,failed,passed,passed,passed,
+,,,Carousel,,,,,,
+29,,Carousel,Click right arrow to change image,passed,passed,passed,not tested,not tested,passed
+30,,,Click left arrow to change image,passed,passed,passed,not tested,not tested,passed
+31,,,Check arrows location,failed,passed,failed,not tested,not tested,passed
+,,,Services blocks,,,,,,
+32,,Services blocks,"Click ""Your favourite brand"" block to open Store Directory page",passed,passed,passed,passed,passed,passed
+33,,,"Click ""Exclusive offers"" block to open page with offers",passed,passed,passed,passed,passed,passed
+34,,,"Click ""Home delivered"" block to open page with delivery opportunities",passed,passed,passed,passed,passed,passed
+,,,Featured Products Section,,,,,,
+35,,Featured Products Section,Click right arrow to move carousel,passed,passed,passed,passed,passed,passed
+36,,,Click left arrow to move carousel,passed,passed,passed,passed,passed,passed
+37,,,Check if carousel's arrows cover product description,passed,passed,passed,failed,failed,failed
+38,,,Click products to go to product page,passed,passed,passed,passed,passed,passed
+39,,,"Click ""Add to Cart"" buttons to see ""Product successfully added to cart"" modal",passed,passed,passed,passed,passed,passed
+,,,Popular Categories Section,,,,,,
+40,,Popular Categories Section,"Click ""Beauty"" category to open Beauty and Health category page",passed,passed,passed,passed,passed,passed
+41,,,"Click ""Liquor"" category to open Liquor category page",passed,passed,passed,passed,passed,passed
+42,,,"Click ""Wine"" category to open Wine category page",passed,passed,passed,passed,passed,passed
+43,,,"Click ""Food"" category to open Food category page",passed,passed,passed,passed,passed,passed
+44,,,"Click ""Fragrance"" category to open Fragrance category page",passed,passed,passed,passed,passed,passed
+45,,,"Click ""Technology"" category to open Technology category page",passed,passed,passed,passed,passed,passed
+46,,,"Click ""Souvenirs and Gifts"" category to open Souvenirs and Gifts category page",passed,passed,passed,passed,passed,passed
+47,,,"Click ""Health"" category to open Health category page",passed,passed,passed,passed,passed,passed
+,,,Footer,,,,,,
+,,,Passenger column,,,,,,
+48,,Passenger column,Click Flights link to open Departures page,passed,passed,passed,passed,passed,passed
+49,,,Click Parking link to open Products and Pricing page,passed,passed,passed,passed,passed,passed
+50,,,Click To & From The Airport link to open Pick Up & Drop Off page,passed,passed,passed,passed,passed,passed
+51,,,Click Shop & Eat link to open Home page of Laneway Melbourneairport site,passed,passed,passed,passed,passed,passed
+52,,,Click Passenger info link to open Passenger Journey page,passed,passed,passed,passed,passed,passed
+,,,Connect column,,,,,,
+53,,Connect column,Click Contact Us link to open Useful Information page,passed,passed,passed,passed,passed,passed
+54,,,Click Media Centre link to open Media Centre page,passed,passed,passed,passed,passed,passed
+55,,,Click Subscribe link to open Subscribe page,passed,passed,passed,passed,passed,passed
+56,,,Click Careers link to open Careers page,passed,passed,passed,passed,passed,passed
+57,,,Click Report a Safety Incident link to open Incident Submission Form from Australia Pacific Airports Corporation,passed,passed,passed,passed,passed,passed
+,,,Corporate column,,,,,,
+58,,Corporate column,Click Community link to open Community  Engagement page,passed,passed,passed,passed,passed,passed
+59,,,Click Enviroment link to open Environment at Melbourne Airport page,passed,passed,passed,passed,passed,passed
+60,,,Click Progects link to open Join the conversation page,passed,passed,passed,passed,passed,passed
+,,,Download App,,,,,,
+61,,Download App,"Click ""Dowland on the App Store"" icon to open page with Melborne Airport App on the App Store",passed,passed,passed,passed,failed,passed
+62,,,"Click ""Get It On Google Play"" icon to open page with Melborne Airport App on Google Play",passed,passed,passed,passed,passed,passed
+,,,Social Links,,,,,,
+63,,Social Links,Click Facebook icon to open Melborne Airport Facebook page,passed,passed,passed,passed,passed,passed
+64,,,Click Twitter icon to open Melborne Airport Twitter page,passed,passed,passed,passed,passed,passed
+65,,,Click Instagram icon to open Melborne Airport Instagram page,passed,passed,passed,passed,passed,passed
+66,,,Click WeChat icon to open Melborne Airport WeChat page,passed,passed,passed,passed,passed,passed
+,,,Footer,,,,,,
+67,,Footer,Click Disability Access Plan link to open Disability Access page,passed,passed,passed,passed,passed,passed
+68,,,Click Disclaimer link to open Disclaimer page,passed,passed,passed,passed,passed,passed
+69,,,Click Terms and Conditions to open The laneway - website terms of use page,passed,passed,passed,passed,passed,passed
+70,,,Click Privacy Policy link to open Privacy policy page,passed,passed,passed,passed,passed,passed
